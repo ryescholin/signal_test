@@ -1,5 +1,6 @@
 use axum::Server;
-use socketioxide::{extract::SocketRef, SocketIo, AckSender, Data};
+use socketioxide::extract::{SocketRef, SocketIo, AckSender, Data};
+use socketioxide::SocketIo;
 use tracing::{error, info};
 use tracing_subscriber::FmtSubscriber;
 use std::sync::{Arc, Mutex};
